@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommunityPoints>
+  <amount>1000.0</amount>
+  <limit>1000</limit>
+  <rewards>
+    <rewards>
+      <price>1000.0</price>
+      <description>We have a bbq and a big campfire</description>
+      <title>Campfire</title>
+    </rewards>
+    <rewards>
+      <price>10000.0</price>
+      <description>We upgrade a tool of your choice</description>
+      <title>New Farming tools</title>
+    </rewards>
+    <rewards>
+      <price>2000.0</price>
+      <description>Everyone gets a free meal</description>
+      <title>Free Dinner for everyone</title>
+    </rewards>
+    <rewards>
+      <price>5000.0</price>
+      <description>We throw a party and invite one band of your choice</description>
+      <title>Huge Party with concert</title>
+    </rewards>
+  </rewards>
+</CommunityPoints>

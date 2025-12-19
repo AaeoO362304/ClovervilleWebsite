@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ActionList>
+  <actions>
+    <reward>200.0</reward>
+    <creator>Anonymous</creator>
+    <description>Collect trash in the forest</description>
+    <title>Clean the Forest</title>
+  </actions>
+  <actions>
+    <reward>300.0</reward>
+    <creator>Bob</creator>
+    <description>Collect the sea grass off the shores and filter out trash in the water</description>
+    <title>Clean the Beach</title>
+  </actions>
+  <actions>
+    <reward>50.0</reward>
+    <creator>Anonymous</creator>
+    <description>For an entire week your only allowed to travel with your bike</description>
+    <title>Travel with bike only</title>
+  </actions>
+  <actions>
+    <reward>150.0</reward>
+    <creator>Anonymous</creator>
+    <description>For an entire week your only allowed to travel by walking</description>
+    <title>Travel only by walking</title>
+  </actions>
+</ActionList>

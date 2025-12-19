@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TradeList>
+  <trades>
+    <creator>
+      <identification>362304</identification>
+      <gender>Male</gender>
+      <dayOfBirth>01.08.2005</dayOfBirth>
+      <personalPoints>
+        <amount>1000.0</amount>
+        <limit>1000</limit>
+      </personalPoints>
+      <name>Mourice</name>
+    </creator>
+    <whatGet>10 Carrots</whatGet>
+    <whatGive>2 Pieces of Bacon</whatGive>
+  </trades>
+  <trades>
+    <creator>
+      <identification>362304</identification>
+      <gender>Male</gender>
+      <dayOfBirth>01.08.2005</dayOfBirth>
+      <personalPoints>
+        <amount>1000.0</amount>
+        <limit>1000</limit>
+      </personalPoints>
+      <name>Mourice</name>
+    </creator>
+    <whatGet>5 Carrots</whatGet>
+    <whatGive>3 Apples</whatGive>
+  </trades>
+  <trades>
+    <creator>
+      <identification>363289</identification>
+      <gender>Male</gender>
+      <dayOfBirth>01.01.2001</dayOfBirth>
+      <personalPoints>
+        <amount>1000.0</amount>
+        <limit>1000</limit>
+      </personalPoints>
+      <name>Miki</name>
+    </creator>
+    <whatGet>1 Bread</whatGet>
+    <whatGive>50 Points</whatGive>
+  </trades>
+  <trades>
+    <creator>
+      <identification>363289</identification>
+      <gender>Male</gender>
+      <dayOfBirth>01.01.2001</dayOfBirth>
+      <personalPoints>
+        <amount>1000.0</amount>
+        <limit>1000</limit>
+      </personalPoints>
+      <name>Miki</name>
+    </creator>
+    <whatGet>1 Cake</whatGet>
+    <whatGive>100 Points</whatGive>
+  </trades>
+  <trades>
+    <creator>
+      <identification>362304</identification>
+      <gender>Male</gender>
+      <dayOfBirth>01.08.2005</dayOfBirth>
+      <personalPoints>
+        <amount>1000.0</amount>
+        <limit>1000</limit>
+      </personalPoints>
+      <name>Mourice</name>
+    </creator>
+    <whatGet>5 Steaks</whatGet>
+    <whatGive>100 Points</whatGive>
+  </trades>
+</TradeList>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ResidentList>
+  <residents>
+    <identification>0</identification>
+  </residents>
+  <residents>
+    <identification>362304</identification>
+    <gender>Male</gender>
+    <dayOfBirth>01.08.2005</dayOfBirth>
+    <personalPoints>
+      <amount>1000.0</amount>
+      <limit>1000</limit>
+    </personalPoints>
+    <name>Mourice</name>
+  </residents>
+  <residents>
+    <identification>363289</identification>
+    <gender>Male</gender>
+    <dayOfBirth>01.01.2001</dayOfBirth>
+    <personalPoints>
+      <amount>1000.0</amount>
+      <limit>1000</limit>
+    </personalPoints>
+    <name>Miki</name>
+  </residents>
+</ResidentList>

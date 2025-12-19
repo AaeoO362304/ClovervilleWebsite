@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anonymous Eco Actions</title>
+
+  <link rel="stylesheet" href="/css/anonymus_styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="nav">
+      <div class="brand">
+        <div class="logo">EV</div>
+        <span class="title">EcoVillage</span>
+      </div>
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+  <section class="intro">
+    <h1>Anonymous Eco-Friendly Actions</h1>
+  </section>
+
+  <section id="reports" class="reports"></section>
+
+  <div id="loading" class="loading">Loading reports…</div>
+  <div id="error" class="error" hidden>Failed to load reports.</div>
+
+</main>
+
+  <footer class="footer">
+    <p>EcoVillage • Every action matters</p>
+  </footer>
+
+  <script>
+  fetch("/actions.xml")
+    .then(response => {
+      if (!response.ok) throw new Error("Failed to load XML");
+      return response.text();
+    })
+    .then(xmlText => {
+      const parser = new DOMParser();
+      const xml = parser.parseFromString(xmlText, "application/xml");
+
+      const actions = xml.querySelectorAll("actions");
+      const container = document.getElementById("reports");
+
+      document.getElementById("loading").style.display = "none";
+
+      actions.forEach(action => {
+        if (action.querySelector("creator")?.textContent=="Anonymous") {
+        const title = action.querySelector("title")?.textContent || "";
+        const description = action.querySelector("description")?.textContent || "";
+        const reward = action.querySelector("reward")?.textContent || "";
+        const creator =  "Anonymous";
+
+        const card = document.createElement("article");
+        card.className = "card";
+
+        card.innerHTML = `
+          <h3>${title}</h3>
+          <div class="meta">By ${creator} • Reward: ${reward}</div>
+          <p>${description}</p>
+        `;
+
+        container.appendChild(card);
+      }});
+    })
+    .catch(error => {
+      document.getElementById("loading").style.display = "none";
+      document.getElementById("error").hidden = false;
+      console.error(error);
+    });
+  </script>
+
+</body>
+</html>
